@@ -314,3 +314,27 @@ scroolElements.forEach((element) => {
 }
 loads();
 
+
+  // Mobile menu open/close logic
+        const menuBtn = document.getElementById('menuBtn');
+        const mobileMenu = document.getElementById('mobileMenu');
+        const closeMenu = document.getElementById('closeMenu');
+        menuBtn.addEventListener('click', () => {
+          mobileMenu.style.opacity = '1';
+          mobileMenu.style.pointerEvents = 'auto';
+          document.body.style.overflow = 'hidden';
+          // Hide all except menu
+          document.getElementById('main').querySelectorAll(':scope > *:not(#mobileMenu)').forEach(el => {
+        if (el !== menuBtn.parentElement) el.style.display = 'none';
+          });
+        });
+        closeMenu.addEventListener('click', () => {
+          mobileMenu.style.opacity = '0';
+          mobileMenu.style.pointerEvents = 'none';
+          document.body.style.overflow = '';
+          // Show all again
+          document.getElementById('main').querySelectorAll(':scope > *:not(#mobileMenu)').forEach(el => {
+        if (el !== menuBtn.parentElement) el.style.display = '';
+          });
+        });
+

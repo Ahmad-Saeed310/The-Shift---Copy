@@ -101,7 +101,7 @@ body, html {
     animation: moving 80s linear infinite;
 }
 .movingin h5{
-    font-size: 6vw;
+    
     font-family: 'TWK', Arial, sans-serif;
 }
 .movingleft {
@@ -120,7 +120,7 @@ body, html {
     animation: movingleft 90s linear infinite;
 }
 .movingleftin h5{
-    font-size: 6vw;
+    
     font-family: 'TWK', Arial, sans-serif;
 }
 
