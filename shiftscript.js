@@ -46,7 +46,7 @@ firstBox.addEventListener("mouseenter", function () {
     cursor.style.backgroundPosition = "center";
     cursor.style.width = "30vw"; // Adjust the size as needed
     cursor.style.height = "22.5vw";
-	cursor.style.borderRadius = "0%";
+	cursor.style.borderRadius = "2%";
     
     
     
@@ -80,7 +80,7 @@ secondBox.addEventListener("mouseenter", function () {
     cursor.style.backgroundPosition = "center";
     cursor.style.width = "30vw"; // Adjust the size as needed
     cursor.style.height = "22.5vw";
-	cursor.style.borderRadius = "0%";
+	cursor.style.borderRadius = "2%";
 
     gsap.to(text2, {
         marginLeft: "2vw", // Move text smoothly
@@ -113,7 +113,7 @@ thirdBox.addEventListener("mouseenter", function () {
     cursor.style.backgroundPosition = "center";
     cursor.style.width = "30vw"; // Adjust the size as needed
     cursor.style.height = "22.5vw";
-	cursor.style.borderRadius = "0%";
+	cursor.style.borderRadius = "2%";
     gsap.to(text3, {
         marginLeft: "2vw", // Move text smoothly
         duration: 1,     // Animation duration (seconds)
@@ -143,7 +143,7 @@ forthBox.addEventListener("mouseenter", function () {
     cursor.style.backgroundPosition = "center";
     cursor.style.width = "30vw"; // Adjust the size as needed
     cursor.style.height = "22.5vw";
-	cursor.style.borderRadius = "0%";
+	cursor.style.borderRadius = "2%";
 
     gsap.to(text4, {
         marginLeft: "2vw", // Move text smoothly
@@ -171,7 +171,7 @@ fifthBox.addEventListener("mouseenter", function () {
     cursor.style.backgroundPosition = "center";
     cursor.style.width = "30vw"; // Adjust the size as needed
     cursor.style.height = "22.5vw";
-	cursor.style.borderRadius = "0%";
+	cursor.style.borderRadius = "2%";
 
     gsap.to(text5, {
         marginLeft: "2vw", // Move text smoothly
